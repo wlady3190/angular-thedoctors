@@ -1,0 +1,21 @@
+.py-5{
+    height: 100vh;
+  }
+
+  .px-4{
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .carousel{
+    width: 50%;
+    margin: auto;
+  }
+  .degraded{
+    background: linear-gradient(90deg, hsla(228, 75%, 73%, 1) 0%, hsla(328, 75%, 73%, 1) 100%);
+  }
