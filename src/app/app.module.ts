@@ -9,6 +9,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CarrouselComponent } from './components/carrousel/carrousel.component';
 import { FormCitaComponent } from './components/form-cita/form-cita.component';
 import { MapComponent } from './components/map/map.component';
+import { WhatsIconComponent } from './components/whats-icon/whats-icon.component';
+import { E404Component } from './components/e404/e404.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MapComponent } from './components/map/map.component';
     FooterComponent,
     CarrouselComponent,
     FormCitaComponent,
-    MapComponent
+    MapComponent,
+    WhatsIconComponent,
+    E404Component
   ],
   imports: [
     BrowserModule,
