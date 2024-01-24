@@ -11,6 +11,11 @@ import { FormCitaComponent } from './components/form-cita/form-cita.component';
 import { MapComponent } from './components/map/map.component';
 import { WhatsIconComponent } from './components/whats-icon/whats-icon.component';
 import { E404Component } from './components/e404/e404.component';
+import { MainComponent } from './components/main/main.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+// import {AngularFireModule} from '@angular/fire'
+
 
 @NgModule({
   declarations: [
@@ -22,7 +27,10 @@ import { E404Component } from './components/e404/e404.component';
     FormCitaComponent,
     MapComponent,
     WhatsIconComponent,
-    E404Component
+    E404Component,
+    MainComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
